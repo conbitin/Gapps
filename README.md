@@ -6,7 +6,7 @@ Using microG to replace Google Play service from validating device certification
 https://github.com/microg/GmsCore/wiki/Downloads
 
 We need GmsCore.apk and GsfProxy.apk for this project
-## 2. Download patch of signature sppofing for Android 11 (R)
+## 2. Download patch of signature spoofing for Android 11 (R)
 
 https://github.com/lineageos4microg/docker-lineage-cicd/tree/master/src/signature_spoofing_patches
 
