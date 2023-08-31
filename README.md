@@ -33,7 +33,7 @@ $(call inherit-product, vendor/microG/microG.mk)
 Run following script: 
 
 ````
-vendor/microG/pathc/apply.sh
+vendor/microG/patch/apply.sh
 ````
 
 # Setup MindTheGapps
