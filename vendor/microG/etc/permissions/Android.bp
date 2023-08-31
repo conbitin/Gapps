@@ -1,0 +1,7 @@
+prebuilt_etc {
+    name: "privapp-permissions-mGmsCore",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-mGmsCore.xml",
+    filename_from_src: true,
+}
