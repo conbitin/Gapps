@@ -18,16 +18,23 @@ Create new folder **$rootDir/vendor/microG** and put apks and patch into it
 - Create script to apply patch
    
 
-Please find source code which implemented these steps under: **vendor/microG**
+**Please find source code which implemented these steps under: **vendor/microG****
 
 ## 7. Include microG into device's make file
 
 Add the following line into device's make file:
 
+````
+$(call inherit-product, vendor/microG/microG.mk)
+````
+
 ## 8. Apply the patch 
 
-Run following script: vendor/microG/pathc/apply.sh
+Run following script: 
 
+````
+vendor/microG/pathc/apply.sh
+````
 
 # Setup MindTheGapps
 Using MindTheGapps for Google apps. For this project, we need only Google Play Store.
@@ -45,13 +52,17 @@ Create new folder **$rootDir/vendor/gapps** and copy mindthegapps into it.
 
 Add the following line into device's make file:
 
+````
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+````
+
 ## 3. Remove unneccessary apps
 
 Select and remove unncessary apps from **vendor/gapps/arm64/arm64-vendor.mk** and **vendor/gapps/common/common-vendor.mk**
 
 We need to keep only Phonesky (Google Play Store) and GoogleServicesFramework for this project.
 
-Please find source code which implemented these step under **vendor/gapps**
+**Please find source code which implemented these step under **vendor/gapps****
 
 
 
