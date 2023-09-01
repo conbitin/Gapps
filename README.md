@@ -64,6 +64,10 @@ We need to keep only Phonesky (Google Play Store) and GoogleServicesFramework fo
 
 **Please find source code which implemented these step under **vendor/gapps****
 
+# Current working flow
+Flash new firmware & reboot device -> Add account via Settings or Play Store -> Open microG and register device -> Reboot.
+
+After that can use Google Play Store.
 
 
 
